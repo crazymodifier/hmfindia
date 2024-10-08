@@ -1,0 +1,113 @@
+body{
+    font-family:'Roboto', sans-serif !important;
+}
+a:hover
+{
+  text-decoration: none;
+}
+.bottom
+  {
+    position: absolute;
+    bottom: 1rem;
+    width: 100%;
+  }
+  .testimonial-img
+  {
+    width: 400px; 
+    height: 300px; 
+    background:#282828;   
+    margin-top:70px;
+    margin-bottom: 30px; 
+    position: relative; 
+    margin-left: 12%;
+  }
+  .shadow
+  {
+    box-shadow: 0 0 10px 3px #0000009c !important;
+  }
+  .card
+  {
+    background:#282828;
+  }
+  .dheading
+  {
+    width: 100%;
+  }
+  .projects 
+      {
+        max-width: 100%;
+      }
+      .projects .slick-slide
+      {
+        filter: blur(2px);
+        transition: all .3s linear;
+      }
+      .projects .slick-center
+      {
+        filter: blur(0);
+        transform: scale(1.2);
+      }
+      .projects .draggable
+      {
+        padding: 50px 0px !important;
+      }
+      h1.display-1
+{
+  font-family: 'Bebas Neue', cursive;
+}
+  #head-logo .col img{
+    width: 40%;
+    margin: -3%;
+    opacity: .3;
+  }
+  .bottom-left-fixed
+  {
+    position: fixed;
+    left: 3%;
+    bottom: 10%;
+  }
+  .bottom-left-fixed li a
+  {
+    color: #f8f8f8 !important;
+    font-size: 20px;
+  }
+  .btn-primary
+  {
+    background: #28282800 !important;
+    border: 1px solid #f8f8f8 !important;
+    border-radius: 0;
+    border-radius: 25px;
+    transition:all .4s ease-in-out;
+    box-shadow: 0 0 0 0.2rem transparent;
+  }
+ .btn-primary:hover, .btn-primary:focus {
+    background: #F8F8F8 !important;
+    border: 1px solid #000 !important;
+    color: #282828 !important;
+    transition:all .4s ease-in-out;
+    box-shadow: 0 0 0 0.2rem #f8f8f8;
+}
+  .heading
+  {
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+  }
+  #services .card:hover
+  {
+    box-shadow: 0 0 10px 3px #0000009c;
+    transition: .3s linear;
+  }
+  .form-control
+  {
+    background: #282828 !important;
+    border-bottom:1px solid #f8f8f8 !important; 
+    border: 0;
+    border-radius: 0 !important;
+  }
+  .form-control:focus {
+    color: #f8f8f8;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 10px 3px #0000009c;
+}
